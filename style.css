@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #d7e9f7, #f0f4f8);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.logo {
+    max-height: 150px;
+    margin-right: 100px;
+    margin-left: -150px
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+header p {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: #fff;
+    padding: 15px;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.visual-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed #007bff;
+    border-radius: 10px;
+    padding: 25px;
+    background: #e3f2fd;
+    max-width: 300px;
+    margin: 0 auto;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.visual-container:hover {
+    border-color: #00c6ff;
+    background-color: #d0efff;
+}
+
+.text-data p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.text-data p strong {
+    color: #007bff;
+}
+
+button {
+    font-size: 1rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #00c6ff, #007bff);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: #007bff;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #777;
+    padding: 15px;
+    background: linear-gradient(90deg, #e3f2fd, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-style: italic;
+}
